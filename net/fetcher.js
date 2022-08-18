@@ -4,7 +4,7 @@ console.log(args)
 
 let url = args[0]
 let localFilePath = args[1]
-////////////////
+
 const request = require('request');
 request(url, (error, response, body) => {
   if (error) console.log('Error on HTTP GET Request...', error);
